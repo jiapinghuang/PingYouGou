@@ -129,6 +129,87 @@
 .box_hd{
 	height: 30px;
 	border-bottom: 2px solid #c81623;
-	background-color: pink;
 	margin-top: 25px;
+}
+.box_hd h3{
+	color: #cc353e;
+	font-size: 16px;
+	float: left;
+}
+.tab-list {
+	float: right;
+	line-height: 30px;
+}
+.tab-list li{
+	float: left;
+}
+.tab-list li a{
+	margin: 0 15px;
+}
+.box_bd{
+	height: 360px;	
+}
+.box_bd img{
+	transition: all 0.5s;
+}
+.box_bd img:hover{
+	margin-left: 8px;
+}
+.box_bd .tab-con li{
+	height: 360px;
+	float: left;
+}
+/*209 329  219 220*/
+.w209{
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.w329{
+	width: 329px;
+}
+.w219{
+	width: 219px;
+	border-right: 1px solid #ededed;
+}
+.w220{
+	width: 220px;
+	border-right: 1px solid #ededed;
+}
+.tab-con-item{
+	border-bottom: 1px solid #ededed;
+}
+.tab-con-list{
+	margin-bottom: 15px;
+	overflow: hidden;/*子元素浮动，且父级没有高度，需要清除浮动*/
+}
+.w209 .tab-con-list li{
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-left: 10px;
+	text-align: center;
+	
+}
+.fixtool{
+	position: fixed;
+	left: 50%;
+	margin-left: -676px;
+	top:100px;
+	width: 66px;
+	background-color: white;
+}
+.fixtool li{
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px solid #CCCCCC;
+	cursor: pointer;
+}
+.fixtool .current {
+	background-color: #CC353E;
+}
+.fixtool .current a{
+	color: white;
 }

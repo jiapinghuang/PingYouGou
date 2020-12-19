@@ -1,4 +1,7 @@
 /*公共样式*/
+.style-red{
+	color: #c81623;
+}
 .fl{
 	float: left;
 }
@@ -155,6 +158,7 @@
 	margin-left: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
+	transition: all 0.5s;
 }
 .menu_item  a{
 	font-size: 14px;
@@ -168,6 +172,7 @@
 }
 .menu_item:hover{
 	background-color: white;
+	padding-left: 20px;
 }
 .menu_item:hover a{
 	color: #B1191A;
