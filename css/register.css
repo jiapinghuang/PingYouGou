@@ -1,0 +1,116 @@
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	height: 82px;
+	border-bottom: 2px solid #C81623;
+}
+.header img{
+	padding-top: 15px;
+}
+.registearea{
+	height: 520px;
+	background-color: #F1F1F1;
+	margin-top: 20px;
+}
+.registearea h3{
+	height: 40px;
+	line-height: 40px;
+	padding:0 10px;
+	font-weight: normal;
+	background-color: #ececec;
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+}
+.registearea h3 em{
+	float: right;
+	font-size: 14px;
+}
+.registearea a{
+	color: red;
+}
+.reg_form{
+	height: 420px;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.reg_form li{
+	margin-bottom: 15px;
+}
+.reg_form label{
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	display: inline-block;
+	text-align: right;
+}
+.reg_form .inp{
+	width: 238px;
+	height: 34px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+}
+.error{
+	color: #C81623;
+	margin-left: 10px;
+	background: url(../img/error.png) no-repeat;
+}
+.error_con,.success_con{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;/*行内元素垂直居中*/
+	margin-top: -2px;
+}
+.success_con{
+	color: green;
+	background: url(../img/success.png) no-repeat;
+}
+.safe{
+	padding-left: 187px;
+	color: #b2b2b2;
+}
+.safe em{
+	padding: 0 12px;
+	color: #fff;
+}
+.safe .ruo{
+	background-color: #de1111;
+}
+.safe .zhong{
+	background-color: #40b83f;
+}
+.safe .qiang{
+	background-color: #f79100;
+}
+.agree {
+	padding-left: 115px;
+	padding-top: 20px;
+}
+.agree input{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.agree a{
+	color: #5F9EA0;
+}
+.over{
+	width: 200px;
+	height: 34px;
+	border: 0;
+	color: #FFFFFF;
+	background-color: #B1191A;
+	font-size: 14px;
+	line-height: 34px;
+	margin: 30px 0 0 130px;
+}
+.footer{
+	height: 120px;
+	text-align: center;
+}
+.links{
+	margin-top: 20px;
+	height: 30px;
+}

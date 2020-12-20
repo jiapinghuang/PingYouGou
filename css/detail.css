@@ -11,11 +11,260 @@
 	width: 400px;
 	height: 590px;
 }
-.iteminfo_wrap{
-	width: 718px;
-	background-color: paleturquoise;
-}
 .preview_img{
 	height: 398px;
 	border: 1px solid #ccc;
+}
+.preview_list{
+	height: 60px;
+	margin-top: 60px;
+	position: relative;
+}
+.list_item{
+	height: 60px;
+	width: 320px;
+	margin: 0 auto;
+}
+.list_item li{
+	width: 56px;
+	height: 56px;
+	border: 2px solid transparent;/*透明色*/
+	float: left;
+	margin: 0 2px;
+}
+
+.list_item li.current{
+	border: 2px solid #C81623;
+}
+.arrow_pre, .arrow_next{
+	position: absolute;/*有定位可以直接给大小*/
+	width: 22px;
+	height: 30px;
+	top:15px;
+}
+.arrow_pre{
+	left: 0;
+	background: url(../img/arrow-prev.png) no-repeat;
+}
+.arrow_next{
+	right: 0;
+	background: url(../img/arrow-next.png) no-repeat;
+}
+.iteminfo_wrap{
+	width: 718px;
+}
+.sku_name{
+	font-size: 16px;
+	font-weight: 700;
+	height: 30px;
+}
+.news{
+	height: 32px;
+}
+.summary dl{
+	overflow: hidden;/*清除浮动*/
+}
+.summary dt,.summary dd{
+	float: left;
+}
+.summary dt{
+	width: 60px;
+	padding-left: 10px;
+	line-height: 36px;
+}
+.summary_price,.summary_promotion{
+	padding: 10px 0;
+	position: relative;
+}
+.price{
+	font-size: 24px;
+	color: #C81623;
+
+}
+.summary_price a{
+	color: #C81623;
+}
+.remark{
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+.summary_promotion{
+	padding-top: 0;
+}
+.summary_promotion dd{
+	width: 450px;
+	line-height: 36px;
+}
+.summary_promotion em{
+	width: 40px;
+	height: 22px;
+	background-color: #CC353E;
+	display: inline-block;
+	text-align: center;
+	line-height: 22px;
+	color: white;
+}
+.summary_support dd{
+	line-height: 36px;
+}
+.choose_color a{
+	width: 80px;
+	height: 40px;
+	display: inline-block;
+	background-color: #f7f7f7;
+	border: 1px solid #EDEDED;
+	line-height: 40px;
+	text-align: center;
+}
+.summary .current{
+	border: 1px solid #C81623;
+}
+.choose_version,.choose_type{
+	margin: 12px 0;
+}
+.choose_version a,.choose_type a{
+	height: 32px;
+	padding: 0 12px;
+	display: inline-block;
+	background-color: #f7f7f7;
+	border: 1px solid #EDEDED;
+	line-height: 32px;
+	text-align: center;
+}
+.choose_btns{
+	margin-top: 20px;
+}
+.choose_amount{
+	width: 50px;
+	height: 46px;
+	background-color: palegoldenrod;
+	float: left;
+	right: 0;
+	position: relative;
+}
+.choose_amount input{
+	width: 33px;
+	height: 44px;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+}
+.redu,.add{
+	width: 15px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	border: 1px solid #CCCCCC;
+	background-color: #F1F1F1;
+	position: absolute;
+	right: 0;
+}
+.add{
+	top: 0;
+}
+.redu{
+	bottom: 0;
+	cursor: not-allowed;/*禁止鼠标*/
+}
+.addcar{
+	width: 142px;
+	height: 46px;
+	float: left;
+	background-color: #C81623;
+	text-align: center;
+	line-height: 46px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+.product_detail{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.aside{
+	width:208px;
+	border: 1px solid #ccc;
+	float: left;
+}
+.detail{
+	width:978px;
+	float: right;
+}
+.tab_list{
+	height: 34px;
+}
+.tab_list li{
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	background-color: #F1F1F1;
+}
+.tab_list .current{
+	border-bottom: 0;
+	color: #CC353E;
+	background-color: #fff;
+}
+.first_tab{
+	width: 104px;
+}
+.second_tab{
+	width: 103px;
+	border-left: 1px solid #ccc;
+}
+.tab_con{
+	padding: 0 10px;
+}
+.tab_con li{
+	border-bottom: 1px solid #ccc;
+}
+.tab_con li h5{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: normal;
+
+}
+.aside_price{
+	font-weight: 700;
+	margin: 10px 0;
+}
+.as_addcar{
+	width: 88px;
+	height: 26px;
+	background-color: #f7f7f7;
+	display:block;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+.detail_tab_list{
+	height: 39px;
+	border-bottom: 1px solid #ccc;
+	background-color: #F1F1F1;
+}
+.detail_tab_list li{
+	height: 39px;
+	line-height: 39px;
+	padding: 0 20px;
+	float: left;
+	cursor: pointer;
+}
+.detail_tab_list .current{
+	color: white;
+	background-color: #C81623;
+}
+.item_info{
+	padding: 20px 0 0 20px;
+}
+.item_info li{
+	line-height: 22px;
+}
+.more{
+	float: right;
+	font-weight: 700;
 }
