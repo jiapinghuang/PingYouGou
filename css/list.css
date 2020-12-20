@@ -1,0 +1,133 @@
+.sk{
+	height: 36px;
+	border-left: 2px solid #B1191A;
+	position: absolute;
+	top: 40px;
+	left: 185px;
+	padding: 5px 0 0 15px;
+}
+.sk_list li{
+	float: left;
+	line-height: 45px;
+	margin: 0 30px;
+}
+.sk_list li a{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+}
+.sk_list li a:hover{
+	color: #B1191A;
+}
+.sk_con li{
+	float: left;
+	line-height: 45px;
+	margin: 0 20px;
+}
+.sk_con li a{
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'icomoon';
+}
+.sk_bd{
+	margin-top: 25px;
+	overflow: hidden;
+}
+.sk_bd ul{
+	width:1212px ;/*父盒子足够宽，解决li位置不够*/
+}
+.sk_goods{
+	width: 288px;
+	height: 459px;
+	border: 1px solid white;
+	float: left;
+	margin:0 12px 15px 0;
+}
+.sk_goods:hover{
+	border: 1px solid #e12228;
+}
+.sk_goods_title{
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+	padding: 10px;
+}
+.sk_goods_price{
+	padding: 0 10px;
+}
+.sk_goods_price em{
+	font-size: 22px;
+	color: #e60012;
+}
+.sk_goods_price del{
+	font-size: 14px;
+	font-weight: 700;
+	color: #A4A4A4;
+}
+.sk_goods_progress{
+	padding: 0 10px;
+}
+.sk_goods_progress em,.sk_goods_progress i{
+	color: red;
+}
+.bar{
+	width: 130px;
+	height: 10px;
+	border:1px solid #C81623;
+	display: inline-block; 
+	vertical-align: middle;/*行内块元素和文字居中*/
+	margin: 0 5px;
+	border-radius: 15px;
+}
+.bar_bg{
+	background-color:#C81623;
+	width: 87%;
+	height: 10px;
+}
+.sk_goods_buy{
+	height: 50px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	background-color: #C81623;
+	margin-top: 6px;
+	 
+}
+.page{
+	margin: 40px 0;
+	text-align: center;/*行内元素居中对齐*/
+	
+}
+.page_num a{
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #CCCCCC;
+	display: inline-block;/*行内块*/
+	background-color: #F7F7F7;
+}
+.page_num .pn-prev, .page_num .pn-next{
+	width: 82px;
+}
+.page_num .current,.page_num .dotted{
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+.page_skip input{
+	width: 36px;
+	height: 36px;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	transition: all 0.5s; /*过渡效果*/
+}
+.page_skip input:focus{/*表单获得焦点后*/
+	width: 66px;
+	border: 1px solid cadetblue;
+}
+.page_skip button{
+	width: 54px;
+	height: 36px;
+	border: 1px solid #CCCCCC;
+	background-color: #F7F7F7;
+}

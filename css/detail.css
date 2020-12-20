@@ -1,0 +1,21 @@
+.de_container{
+	margin-top: 20px;
+}
+.crumb_wrap{
+	height: 25px;
+}
+.crumb_wrap a{
+	margin-right: 10px;
+}
+.preview_wrap{
+	width: 400px;
+	height: 590px;
+}
+.iteminfo_wrap{
+	width: 718px;
+	background-color: paleturquoise;
+}
+.preview_img{
+	height: 398px;
+	border: 1px solid #ccc;
+}
